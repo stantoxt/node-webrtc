@@ -28,6 +28,7 @@ function makeConf(config) {
   }
 
   config.set({
+    browserNoActivityTimeout: 60 * 1000,
     browsers: browsers,
     concurrency: 1,
     customLaunchers: {
